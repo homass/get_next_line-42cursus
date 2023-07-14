@@ -10,16 +10,19 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#	ifndef GET_NEXT_LINE_BONUS_H
+#ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
 
 # include <unistd.h>
 # include <stdlib.h>
 # include <fcntl.h>
 # include <limits.h>
+
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 1
 # endif
+
+# define OPEN_MAX 2147483647
 
 char	*get_next_line(int fd);
 char	*get_next_line_utils(int fd, char *container);
