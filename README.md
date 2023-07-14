@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>get_next_line 42 Project</title>
 </head>
 <body>
   <h1>get_next_line 42 Project</h1>
